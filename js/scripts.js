@@ -1,11 +1,12 @@
-var divide = function(number1, number2, number3) {
-return number1 / number2 / number3;
+var BMI = function(number1, number2) {
+return (number1 / number2)/number2;
 };
 
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-var number3 = parseInt(prompt("Enter third number:"));
+var number1 = parseInt(prompt("Enter Your Weight"));
+var number2 = parseInt(prompt("Enter Your Height:"));
 
 
- var result = divide(number1, number2, number3);
+
+ var result = BMI(number1, number2);
+
 alert(result);
